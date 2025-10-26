@@ -479,4 +479,4 @@ FROM (
 - Languages: SQL
 - Tools: MySQL Workbench, CSV Export
 
-This project demonstrates practical SQL expertise in healthcare analytics, combining database design with risk management and fraud detection principles to drive measurable improvements in claims processing, cost management, and operational efficiency.
+*This project demonstrates practical SQL expertise in healthcare analytics, combining database design with risk management and fraud detection principles to drive measurable improvements in claims processing, cost management, and operational efficiency.*
