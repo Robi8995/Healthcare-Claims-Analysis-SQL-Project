@@ -313,8 +313,10 @@ Healthcare insurers face portfolio risk from fraudulent claims, high-cost patien
 ```sql
 CREATE DATABASE healthcare_claims_project;
 USE healthcare_claims_project;
+```
 
-Step 2: Create Table
+### Step 2: Create Table
+```sql
 CREATE TABLE Claims (
     Claim_ID VARCHAR(10) PRIMARY KEY,
     Patient_ID VARCHAR(10),
@@ -329,15 +331,19 @@ CREATE TABLE Claims (
     Payment_Method VARCHAR(20),
     Fraud_Flag TINYINT
 );
+```
 
-Step 3: Load Data
+### Step 3: Load Data
+```sql
 LOAD DATA INFILE 'Healthcare_Claims_Synthetic.csv'
 INTO TABLE Claims
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
+```
 
-Step 4: Run Analysis Queries
+### Step 4: Run Analysis Queries
+```sql
 Query 1: Average Claim by Payment Method
 SELECT Payment_Method, 
        ROUND(AVG(Claim_Amount),2) AS Avg_Claim
@@ -422,8 +428,10 @@ FROM Claims
 GROUP BY Patient_ID
 ORDER BY Rank_Value
 LIMIT 10;
+```
 
-Step 5: Export Results
+### Step 5: Export Results
+```sql
 SELECT * INTO OUTFILE 'Avg_Claim_By_PaymentMethod_Output.csv'
 FIELDS TERMINATED BY ','
 FROM (
@@ -431,9 +439,9 @@ FROM (
     FROM Claims
     GROUP BY Payment_Method
 ) t;
+```
 
-
-📊 Recommended Visualizations
+## 📊 Recommended Visualizations
 Claims Distribution Dashboard - Pie chart of claim status (Approved/Denied/Pending)
 Payment Method Comparison - Bar chart of average claims by payment type
 Provider Performance - Column chart of top 10 providers by claim volume
@@ -445,7 +453,7 @@ High-Cost Patient Ranking - Horizontal bar chart of top 20 patients
 Diagnosis Cost Analysis - Sorted bar chart of average claims by diagnosis
 Cumulative Spending - Area chart of patient spending progression over time
 
-🎓 Learning Outcomes
+## 🎓 Learning Outcomes
 By working through this project, you will learn:
 Healthcare claims data analysis and management principles
 Database design for insurance and healthcare applications
@@ -464,11 +472,5 @@ Creating actionable business intelligence from raw claims data
 Your Name
  LinkedIn | GitHub
 
-🔗 Related Projects
-Loan Default Risk Segmentation
-Inventory & Supplier Analysis
-Bank Customer Segmentation
-Hospital Patient Records Analysis
-Telco Customer Churn Analysis
 
 This project demonstrates practical SQL expertise in healthcare analytics, combining database design with risk management and fraud detection principles to drive measurable improvements in claims processing, cost management, and operational efficiency.
