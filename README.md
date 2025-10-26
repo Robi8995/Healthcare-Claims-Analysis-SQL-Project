@@ -442,35 +442,36 @@ FROM (
 ```
 
 ## 📊 Recommended Visualizations
-Claims Distribution Dashboard - Pie chart of claim status (Approved/Denied/Pending)
-Payment Method Comparison - Bar chart of average claims by payment type
-Provider Performance - Column chart of top 10 providers by claim volume
-Age Group Analysis - Histogram of claims by age group
-Fraud Detection - Heat map of fraud-flagged claims by provider
-Monthly Trends - Line chart of claim volume over time
-Policy Tier Comparison - Stacked bar chart of claims by policy and status
-High-Cost Patient Ranking - Horizontal bar chart of top 20 patients
-Diagnosis Cost Analysis - Sorted bar chart of average claims by diagnosis
-Cumulative Spending - Area chart of patient spending progression over time
+
+- Claims Distribution Dashboard - Pie chart of claim status (Approved/Denied/Pending)
+- Payment Method Comparison - Bar chart of average claims by payment type
+- Provider Performance - Column chart of top 10 providers by claim volume
+- Age Group Analysis - Histogram of claims by age group
+- Fraud Detection - Heat map of fraud-flagged claims by provider
+- Monthly Trends - Line chart of claim volume over time
+- Policy Tier Comparison - Stacked bar chart of claims by policy and status
+- High-Cost Patient Ranking - Horizontal bar chart of top 20 patients
+- Diagnosis Cost Analysis - Sorted bar chart of average claims by diagnosis
+- Cumulative Spending - Area chart of patient spending progression over time
 
 ## 🎓 Learning Outcomes
-By working through this project, you will learn:
-Healthcare claims data analysis and management principles
-Database design for insurance and healthcare applications
-Fraud detection and risk assessment techniques
-Provider performance evaluation strategies
-Patient segmentation and high-cost care identification
-Payment processing analysis and anomaly detection
-Complex SQL queries for healthcare analytics
-Window functions for cumulative analysis and ranking
-CASE statements for data categorization
-Temporal analysis and trend identification
-Working with large healthcare datasets (3,000+ records)
-Creating actionable business intelligence from raw claims data
 
-📝 Author
-Your Name
- LinkedIn | GitHub
+- By working through this project, you will learn:
+- Healthcare claims data analysis and management principles
+- Database design for insurance and healthcare applications
+- Fraud detection and risk assessment techniques
+- Provider performance evaluation strategies
+- Patient segmentation and high-cost care identification
+- Payment processing analysis and anomaly detection
+- Complex SQL queries for healthcare analytics
+- Window functions for cumulative analysis and ranking
+- CASE statements for data categorization
+- Temporal analysis and trend identification
+- Working with large healthcare datasets (3,000+ records)
+- Creating actionable business intelligence from raw claims data
 
+## 📝 Author
+**Robin Jimmichan P**  
+[LinkedIn](https://www.linkedin.com/in/robin-jimmichan-pooppally-676061291) | [GitHub](https://github.com/Robi8995)
 
 This project demonstrates practical SQL expertise in healthcare analytics, combining database design with risk management and fraud detection principles to drive measurable improvements in claims processing, cost management, and operational efficiency.
