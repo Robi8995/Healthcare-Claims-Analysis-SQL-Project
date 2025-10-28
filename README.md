@@ -430,17 +430,6 @@ ORDER BY Rank_Value
 LIMIT 10;
 ```
 
-### Step 5: Export Results
-```sql
-SELECT * INTO OUTFILE 'Avg_Claim_By_PaymentMethod_Output.csv'
-FIELDS TERMINATED BY ','
-FROM (
-    SELECT Payment_Method, ROUND(AVG(Claim_Amount),2) AS Avg_Claim
-    FROM Claims
-    GROUP BY Payment_Method
-) t;
-```
-
 ## 🎓 Learning Outcomes
 
 - By working through this project, you will learn:
