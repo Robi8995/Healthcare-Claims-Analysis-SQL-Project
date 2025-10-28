@@ -458,7 +458,7 @@ FROM (
 - Creating actionable business intelligence from raw claims data
 
 ## 📝 Author
-**Robin Jimmichan P**  
+**Robin Jimmichan Pooppally**  
 [LinkedIn](https://www.linkedin.com/in/robin-jimmichan-pooppally-676061291) | [GitHub](https://github.com/Robi8995)
 
 ## 📚 Technical Stack
