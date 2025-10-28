@@ -24,7 +24,7 @@ A comprehensive SQL-based healthcare analytics project for identifying high-risk
 
 **Objective:** Assess healthcare claims portfolio, identify high-risk patients, detect fraud patterns, and analyze provider performance to minimize fraudulent claims and optimize reimbursement strategies.
 
-**Database:** `healthcare_claims_project` | **Industry:** Healthcare & Insurance
+**Database:** `Healthcare_Claims_Synthetic.csv` | **Industry:** Healthcare & Insurance
 
 **Problem Statement:**  
 Healthcare insurers face portfolio risk from fraudulent claims, high-cost patients, and inconsistent provider performance, leading to financial losses and operational inefficiencies. This project provides data-driven risk assessment, fraud detection systems, and provider performance analysis to minimize claim losses and optimize healthcare spending.
