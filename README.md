@@ -455,6 +455,7 @@ LIMIT 10;
 | **Database** | MySQL 8.0+ |
 | **Languages** | SQL |
 | **Tools** | MySQL Workbench, CSV Export |
+| **Dataset Used** | Healthcare_Claims_Synthetic.csv |
 
 ---
 
