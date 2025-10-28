@@ -262,43 +262,34 @@ Healthcare insurers face portfolio risk from fraudulent claims, high-cost patien
 
 **CSV Files Generated:**
 
-1. **Avg_Claim_By_PaymentMethod_Output.csv** - Average claims by payment type (4 rows)
+1. **Average Claim by Payment Method.csv** - Average claims by payment type (4 rows)
    - Debit Card: $25,591.75, Cash: $25,169.92, Credit Card: $24,736.80, Net Banking: $24,078.37
 
-2. **Avg_Claims_By_Policy_Output.csv** - Average claims by policy and status (12 rows)
+2. **Average Claims by Policy Type and Status.csv** - Average claims by policy and status (12 rows)
    - Policy Type, Claim Status, Average Claim Amount
 
-3. **Claims_By_AgeGroup_Output.csv** - Claims distribution by age (4 rows)
+3. **Claims by Age Group.csv** - Claims distribution by age (4 rows)
    - Age Group, Number of Claims, Average Claim
 
-4. **Claims_By_Provider_Output.csv** - Top 10 providers (10 rows)
+4. **Claims by Provider (Top 10).csv** - Top 10 providers (10 rows)
    - Provider ID, Number of Claims, Total Claim Amount
 
-5. **High_Claim_Patients_Output.csv** - Top 50 high-cost patients (50 rows)
+5. **High-Cost Patients (Top 50).csv** - Top 50 high-cost patients (50 rows)
    - Patient ID, Claim Count, Total Claim Amount
 
-6. **High_Cost_Diagnoses_Output.csv** - Average by diagnosis (5 rows)
+6. **High-Cost Diagnoses.csv** - Average by diagnosis (5 rows)
    - Diagnosis, Average Claim Amount
 
-7. **Monthly_Claims_Output.csv** - Monthly trend analysis (25 rows)
+7. **Monthly Claims Trend.csv** - Monthly trend analysis (25 rows)
    - Year, Month, Number of Claims
 
-8. **Cumulative_Claims_Per_Patient_Output.csv** - Patient spending trends (2,000+ rows)
+8. **Cumulative Claims Per Patient.csv** - Patient spending trends (2,000+ rows)
    - Patient ID, Claim Date, Claim Amount, Cumulative Amount
 
-9. **Rank_Patients_Output.csv** - Top 10 ranked patients (10 rows)
+9. **Rank Patients by Total Claims.csv** - Top 10 ranked patients (10 rows)
    - Patient ID, Total Claim Amount, Rank Value
 
-10. **Rolling_Avg_Claims_Output.csv** - Daily rolling averages (2,000+ rows)
-    - Claim Date, Rolling Average Claim
-
-11. **Top_Patients_Output.csv** - Top 10 patients summary (10 rows)
-    - Patient ID, Total Claim Amount
-
-12. **Top_Providers_Output.csv** - Top 10 providers summary (10 rows)
-    - Provider ID, Number of Claims, Total Claim Amount
-
-13. **Fraud_Flagged_Claims_Output.csv** - Fraud detection results (100 rows)
+10. **Fraud-Flagged Claims.csv** - Fraud detection results (100 rows)
     - Claim ID, Patient ID, Provider ID, Diagnosis, Claim Amount, Fraud Flag
 
 **Database Files:**
