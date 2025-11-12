@@ -14,9 +14,8 @@ A comprehensive SQL-based healthcare analytics project for identifying high-risk
 3. [Key Analysis Steps](#-key-analysis-steps)
 4. [SQL Techniques Used](#-sql-techniques-used)
 5. [Key Findings](#-key-findings)
-6. [Business Impact](#-business-impact)
-7. [Output Files](#-output-files)
-8. [How to Use](#-how-to-use)
+6. [Output Files](#-output-files)
+7. [How to Use](#-how-to-use)
 
 ---
 
@@ -235,26 +234,6 @@ Healthcare insurers face portfolio risk from fraudulent claims, high-cost patien
 | **Fracture** | $24,104.04 |
 
 **Insight:** Allergy claims highest average ($25,742), suggesting comprehensive coverage. Fractures lowest ($24,104), indicating straightforward treatment protocols.
-
----
-
-## 💼 Business Impact
-
-✅ **Fraud Detection:** Identify 100 fraudulent claims (3.34% of portfolio) preventing $2.65M in fraudulent payouts
-
-✅ **Provider Performance:** Evaluate 50 providers, identifying top performers for network optimization and underperformers for audits
-
-✅ **Cost Management:** Identify high-cost patients enabling targeted intervention programs reducing spending 15-20%
-
-✅ **Policy Optimization:** Analyze policy tier performance supporting premium adjustment and coverage decisions
-
-✅ **Payment Processing:** Understand payment method patterns identifying operational bottlenecks and fraud risk
-
-✅ **Care Quality:** Age and diagnosis analysis supports population health management and preventive care strategies
-
-✅ **Revenue Protection:** Early fraud detection and provider audits reduce claim losses by $400K-$500K annually
-
-✅ **Operational Efficiency:** Monthly trends enable capacity planning and resource allocation optimization
 
 ---
 
